@@ -1,3 +1,13 @@
+body {
+  background-color: #333;
+  background-image: 
+    radial-gradient(circle at 10% 20%, #ee0909 3%, transparent 4%),
+    radial-gradient(circle at 30% 50%, #ccc 3%, transparent 4%),
+    radial-gradient(circle at 70% 80%, #ccc 3%, transparent 4%);
+  background-size: 200px 200px;
+  background-position: 50% 50%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +45,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.block__app {
+  display: flex;
+  justify-content: space-around;
 }
