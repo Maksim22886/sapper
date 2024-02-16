@@ -297,7 +297,7 @@ function GameBoard(): JSX.Element {
 
                   if(mask[y * size + x] === Mask.Transparent) return;                  
                     if (mask[y * size + x] === Mask.Fill
-                      //  && mask.filter(num => num === 2).length < field.filter(num => num === -1).length
+                       && mask.filter(num => num === 2).length < field.filter(num => num === -1).length
                       ){
                       mask[y * size + x] = Mask.Flag;
                     } else if (mask[y * size + x] === Mask.Flag){
