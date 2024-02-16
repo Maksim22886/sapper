@@ -15,7 +15,5 @@
 <img width="1394" alt="image" src="https://github.com/Maksim22886/sapper/assets/120506295/65298d9b-ec7c-403c-bcd4-c21dfeca13bc">
 После победы видим страницу такого типа, где можно перейти на страницу Лидеров, либо вернуться обратно к настройкам
 <img width="1074" alt="image" src="https://github.com/Maksim22886/sapper/assets/120506295/dee9a4f0-919e-4f3a-9cd8-3e7b1785f44e">
-
-
-
-
+В таблице лидеров видим лучших игроков, таблица остсортирована по ТЗ (Максимальное кол. игроков не больше 10)
+<img width="1537" alt="image" src="https://github.com/Maksim22886/sapper/assets/120506295/3f501250-5b60-4f89-ba96-7ec4860eb4c1">
