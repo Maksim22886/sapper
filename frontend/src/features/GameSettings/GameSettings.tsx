@@ -118,6 +118,7 @@ function GameSettings(): JSX.Element {
       };
 
       const handleAllFunctions2 = () => {
+        handleSaveToLocalStorage();
         handleSave();
         handleSave2();
         TrafikTaim2();
