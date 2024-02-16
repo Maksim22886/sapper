@@ -1,0 +1,42 @@
+.block {
+    &__top {
+    display: table;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    background-color: #000000;
+    border: 1px solid #ff0000;  
+    }
+
+    &__piple {
+    display: table-row;
+    }
+
+    &__name,
+    &__point {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    color: red; 
+    }
+
+    &__name {
+    background-color: #000000; // тут
+    color: red;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+
+    &__UserName {
+    color: red;
+    background-color: black;
+    }
+
+    &__pageTop {
+    color: #ff0000;
+    }
+}
+    

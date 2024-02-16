@@ -1,0 +1,11 @@
+.block__gameBoard {
+    display: inline-block;
+    // justify-content: center;
+    // align-items: center;
+    height: 100vh;
+}
+.block__attributes {
+    display: flex;
+    justify-content: space-evenly;
+    color: #912b2b;
+}
