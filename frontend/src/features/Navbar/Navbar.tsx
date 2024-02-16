@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink, Outlet } from 'react-router-dom';
-import './style/Navbar.css';
+import './style/Navbar.scss';
 
 function Navbar(): JSX.Element {
 
